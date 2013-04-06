@@ -1,3 +1,5 @@
 source :rubygems
 
-gem 'rack'
+gem 'sinatra'
+gem 'shotgun'
+gem 'rack-www'
