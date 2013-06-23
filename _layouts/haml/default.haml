@@ -1,0 +1,36 @@
+!!! 5
+%html
+  %head
+    %meta{ :charset => "utf-8" }
+    %meta{ 'http-equiv' => "X-UA-Compatible", :content => "IE=edge,chrome=1" }
+    %meta{ :name => "viewport", :content => "width=device-width" }
+    %title
+      {{ page.title }}
+    
+    %link{ :rel => "stylesheet", :href => "/assets/css/syntax.css" }
+    %link{ :rel => "stylesheet", :href => "/assets/css/main.css" }
+    %link{ :rel => "stylesheet", :href => "/assets/css/something.css" }
+  %body
+    .container
+      .site
+        .header
+          %h1.title
+            %a{ :href => "/" }
+              {{ site.name }}
+          %a.extra{ :href => "/" }
+            home
+
+        {{ content }}
+
+        .footer
+          .contact
+            %p
+              My name is Maximus Decimus Meridius
+
+          .contact
+            %p
+              %a{ :href => "http://github.com/yourusername/" }
+                github.com/yourusername
+            %p
+              %a{ :href => "http://twitter.com/yourusername/" }
+                twitter.com/yourusername
