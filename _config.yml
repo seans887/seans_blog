@@ -1,4 +1,4 @@
 name: Sean's New Blog
-pygments: true
+highlighter: pygments
 
 exclude: [config.ru, Gemfile, Gemfile.lock, Procfile, Rakefile, README.md, vendor]
