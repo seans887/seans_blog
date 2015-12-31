@@ -82,10 +82,11 @@ DEPENDENCIES
   jekyll
   libv8 (~> 3.16.14)
   puma
+  rack
   rack-contrib
   rake
   sass
   therubyracer (>= 0.12.2)
 
 BUNDLED WITH
-   1.10.6
+   1.11.2

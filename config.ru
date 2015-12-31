@@ -1,3 +1,4 @@
+require 'rack'
 require 'rack/contrib/try_static'
 require 'rack/contrib/not_found'
 
